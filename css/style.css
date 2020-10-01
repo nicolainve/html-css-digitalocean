@@ -1,0 +1,55 @@
+/* GENERAL */
+body {
+  padding-top: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* LAYOUT */
+.fas.fa-angle-down {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: #fff;
+  color: #006aff;
+  border: 1px solid;
+}
+
+.navbar-btn {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+/* UTILITIES */
+
+/* MAIN HEADER */
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  border-radius: 0;
+}
+
+.navbar-brand img {
+  width: 140px;
+  margin-right: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #031b4f;
+  padding: 20px 10px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+}
