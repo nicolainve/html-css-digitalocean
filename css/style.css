@@ -1,7 +1,21 @@
 /* GENERAL */
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   font-family: 'Roboto', sans-serif;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color: #031b4f;
+}
+
+p {
+  color: #031b4f;
+}
+
+a {
+  color: #006aff;
 }
 
 /* LAYOUT */
@@ -22,6 +36,30 @@ body {
   margin-top: 13px;
   margin-bottom: 13px;
 }
+
+.btn-full {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.btn-account {
+  background: #579aff;
+  color: #fff;
+}
+
+.btn-google {
+  position: relative;
+  color: #6d6d6d;
+}
+
+.btn-google img {
+  position: absolute;
+  left: 0;
+  transform: translateX(50%);
+  width: 20px;
+}
+
 /* UTILITIES */
 
 /* MAIN HEADER */
@@ -44,12 +82,45 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .navbar-toggle {
-        display: block;
-        position: absolute;
-        right: 0;
-    }
-    .navbar-collapse {
-        display: none;
-    }
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  .navbar-collapse {
+    display: none;
+  }
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url('../img/bg-banner-home.jpg');
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 46px;
+}
+
+.jumbotron p {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.jumbotron-box {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.jumbotron-box h3:nth-of-type(2) {
+  color: #006aff;
+  margin-top: 0;
+}
+
+.jumbotron-box p {
+  color: #031b4f;
+  font-size: 12px;
+  font-weight: 400;
 }
