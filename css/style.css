@@ -31,8 +31,8 @@ a {
 }
 
 section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .background-grey {
@@ -251,4 +251,23 @@ section {
   margin: 0 20px;
   display: inline-block;
   vertical-align: middle;
+}
+
+/* FOOTER */
+.main-footer {
+  background: #031b4f;
+  padding: 40px 0;
+}
+
+.main-footer img {
+  width: 20%;
+}
+
+.main-footer h4 {
+  color: #fff;
+}
+
+.main-footer p,
+.main-footer li a {
+	color: rgba(255, 255, 255, 0.7);
 }
