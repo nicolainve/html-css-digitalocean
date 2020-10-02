@@ -189,3 +189,9 @@ section {
 .deploy .deploy-box p {
   font-size: 12px;
 }
+
+/* Developers */
+.developers img {
+  width: 80%;
+  padding: 30px;
+}
