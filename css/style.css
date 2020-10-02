@@ -195,3 +195,16 @@ section {
   width: 80%;
   padding: 30px;
 }
+
+/* Features */
+.feature img {
+  width: 40px;
+}
+
+.feature p {
+  font-size: 12px;
+}
+
+.feature-box {
+  margin-bottom: 30px;
+}
