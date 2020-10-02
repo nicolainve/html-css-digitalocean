@@ -35,8 +35,12 @@ section {
   padding-bottom: 40px;
 }
 
-.section-grey {
+.background-grey {
   background-color: #f3f5f9;
+}
+
+.background-blue {
+  background: linear-gradient(to top, #021B79, #0575E6);
 }
 
 /* BUTTONS */
@@ -75,17 +79,20 @@ section {
 }
 
 /* UTILITIES */
-.list-undecorated {
+.list-unstyled li {
   padding-left: 10px;
+}
+
+.deploy ul {
   border-left: 1px solid #6d6d6d;
 }
 
-.list-undecorated li {
+.list-unstyled li {
   list-style: none;
   line-height: 40px;
 }
 
-.list-undecorated li a {
+.list-unstyled li a {
   color: #6d6d6d;
 }
 
@@ -207,4 +214,41 @@ section {
 
 .feature-box {
   margin-bottom: 30px;
+}
+
+/* Regions */
+.regions li {
+  position: relative;
+  border-bottom: 1px solid #fff;
+  padding: 0 15px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.regions li:last-child {
+  border-bottom: none;
+}
+
+.regions-list li span:first-child {
+  color: #fff;
+}
+
+.regions-list li span:last-of-type {
+  position: absolute;
+  left: 20%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.regions-list li a {
+  float: right;
+  color: #00d7d2;
+}
+
+.box-teams {
+  background: #fff;
+  width: 60%;
+  padding: 50px 0;
+  margin: 0 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
