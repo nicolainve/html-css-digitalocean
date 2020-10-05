@@ -248,7 +248,7 @@ section {
   background: #fff;
   width: 60%;
   padding: 50px 0;
-  margin: 0 20px;
+  margin: 20px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -270,4 +270,44 @@ section {
 .main-footer p,
 .main-footer li a {
 	color: rgba(255, 255, 255, 0.7);
+}
+
+/* TOOLTIP */
+.tooltip-utility {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.tooltip-text {
+  width: 75%;
+  margin-right: 5px;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  background: #fff;
+  color: #006aff;
+  vertical-align: bottom;
+  filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.6));
+}
+
+.tooltip-text::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  bottom: 10px;
+  right: -5px;
+  transform: rotate(45deg);
+}
+
+.tooltip-utility img {
+  padding: 5px 0;
+  border-radius: 10px;
+  background: #006aff;
+  width: 20%;
 }
